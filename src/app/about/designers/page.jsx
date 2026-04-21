@@ -1,4 +1,4 @@
-const page = () => {
+const DesignersPage = () => {
     return (
         <div>
             This is the designers page. You can edit this page at src/app/about/designers/page.jsx
@@ -6,4 +6,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default DesignersPage;
