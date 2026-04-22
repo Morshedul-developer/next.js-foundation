@@ -52,6 +52,7 @@ const BlogDetailPage = async ({params}) => {
     return (
         <div>
             <h2 className="text-4xl">Blog Title</h2>
+            {blog && <p>{blog.title}</p>}
         </div>
     );
 };
