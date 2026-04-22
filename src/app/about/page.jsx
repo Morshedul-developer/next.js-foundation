@@ -2,8 +2,11 @@ import Image from "next/image";
 import Virat from "../../assets/images/virat.jpg";
 
 const AboutPage = () => {
+    
+    
     return (
         <div>
+            <h2>About Page</h2>
             This is the about page. You can edit this page at src/app/about/page.jsx
             <Image src="/babor.jfif" alt="Babor" width="500" height="300" />
             <Image src={Virat} alt="Virat" width={500} height={300} />
